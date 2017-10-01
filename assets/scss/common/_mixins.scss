@@ -1,0 +1,85 @@
+// display & position
+@mixin dp($d,$p) {
+    display: $d;
+    position: $p;
+}
+
+// bottom & left
+@mixin bl($b,$l) {
+    bottom: $b;
+    left: $l;
+}
+// bottom & right
+@mixin br($b,$r) {
+    bottom: $b;
+    right: $r;
+}
+// top & left
+@mixin tl($t,$l) {
+    top: $t;
+    left: $l;
+}
+// top & right
+@mixin tr($t,$r) {
+    top: $t;
+    right: $r;
+}
+
+// margin & padding
+@mixin mp($m,$p) {
+    margin: $m;
+    padding: $p;
+}
+
+// min & max width
+@mixin mmw($min,$max) {
+    min-width: $min;
+    max-width: $max;
+}
+// min & max height
+@mixin mmh($min,$max) {
+    min-height: $min;
+    max-height: $max;
+}
+// width & height
+@mixin wh($w,$h) {
+    width: $w;
+    height: $h;
+}
+
+//display & position
+    //bottom & left
+@mixin dpbl($d,$p,$b,$l) {
+    @include dp($d,$p);
+    @include bl($b,$l);
+}
+    //bottom & right
+@mixin dpbr($d,$p,$b,$r) {
+    @include dp($d,$p);
+    @include br($b,$r);
+}
+    //top & left
+@mixin dptl($d,$p,$t,$l) {
+    @include dp($d,$p);
+    @include tl($t,$l);
+}
+    //top & right
+@mixin dptr($d,$p,$t,$r) {
+    @include dp($d,$p);
+    @include tr($t,$r);
+}
+
+//dimensions, margins, & padding
+@mixin whmp($w,$h,$m,$p) {
+    @include wh($w,$h);
+    @include mp($m,$p);
+}
+
+
+//fill parent element
+@mixin fill() {
+    @include dp(inline-block,relative);
+    @include tl(0,0);
+    @include wh(100%,100%);
+    @include mp(0,0);
+}

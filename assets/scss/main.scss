@@ -1,0 +1,58 @@
+@import "common/mixins";
+@import "common/vars";
+@import "common/fonts";
+
+// bower:scss
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+
+
+html body {
+	#theHeader {
+			@include dpbl(block,fixed,0,0);
+			@include whmp(100vw,50px,0,0);
+
+		#theNav {
+				@include fill();
+
+			#navList {
+					@include fill();
+
+					list-style: none;
+					text-align: center;
+				.nav-item {
+						@include dptl(inline-block,relative,0,0);
+						@include whmp(17%,$icon-size,0,0);
+
+						text-align: center;
+					.nav-link {
+							@include fill();
+
+							font-size: $icon-size;
+							color: $main-color;
+						.nav-icon {}
+						.nav-text {display: none;}
+					}
+				}
+				.nav-item:hover {
+					.nav-link {
+							text-shadow: 1px 1px $secd-color;
+					}
+				}
+			}
+		}
+	}
+	.head-letters {
+		padding: 5px 5%;
+		text-align: right;
+		.head-letter {
+			font-size: 10vh;
+			display: block;
+			text-shadow: 1px 1px $secd-color;
+		}
+	}
+	#theMain {}
+	#theFooter {}
+}

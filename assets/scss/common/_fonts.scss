@@ -1,0 +1,84 @@
+$font-path: "../fonts/";
+
+@import url('https://fonts.googleapis.com/css?family=Amethysta|Antic+Slab|Arbutus+Slab|Architects+Daughter|Arima+Madurai|Arsenal|Artifika|Arya|Asar|Athiti|Autour+One|Averia+Gruesa+Libre|Averia+Sans+Libre|Averia+Serif+Libre|Baloo+Bhaijaan|Belgrano|Bellefair|Bitter|Brawler|Bubbler+One|Buda:300|Caudex|Chathura|Coming+Soon|Concert+One|Copse|Cormorant+Infant|Cutive|Cutive+Mono|Delius|Della+Respira|Domine|Dosis|Economica|Expletus+Sans|Fauna+One|Faustina|Forum|GFS+Neohellenic|Gentium+Book+Basic|Glass+Antiqua|Halant|Happy+Monkey|Josefin+Slab|Julius+Sans+One|Jura|Kavivanar|Kreon|Kurale|Laila|Ledger|Libre+Baskerville|Life+Savers|Lustria|Maitree|Margarine|Miriam+Libre|Modern+Antiqua|Neucha|Neuton|Nixie+One|Noto+Serif|Offside|Oldenburg|Overlock|Ovo|Pavanam|Petrona|Philosopher|Poiret+One|Port+Lligat+Slab|Quando|Quattrocento|Quicksand|Raleway|Sanchez|Sansita|Scope+One|Signika+Negative|Sree+Krushnadevaraya|Sumana|Sura|Tenali+Ramakrishna|Tinos|Trochut|Vidaloka|Viga|Volkhov');
+
+$brand-font: 'Cutive Mono', monospace;
+
+
+/*
+font-family: 'Copse', serif;
+font-family: 'Fauna One', serif;
+font-family: 'Viga', sans-serif;
+font-family: 'Artifika', serif;
+font-family: 'Kurale', serif;
+font-family: 'Nixie One', cursive;
+font-family: 'Cutive', serif;
+font-family: 'Ovo', serif;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Caudex', serif;
+font-family: 'Happy Monkey', cursive;
+font-family: 'Delius', cursive;
+font-family: 'Quando', serif;
+font-family: 'Miriam Libre', sans-serif;
+font-family: 'Belgrano', serif;
+font-family: 'Brawler', serif;
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Expletus Sans', cursive;
+font-family: 'Athiti', sans-serif;
+font-family: 'Port Lligat Slab', serif;
+font-family: 'Averia Sans Libre', cursive;
+font-family: 'Life Savers', cursive;
+font-family: 'Amethysta', serif;
+font-family: 'Sumana', serif;
+font-family: 'Ledger', serif;
+font-family: 'Maitree', serif;
+font-family: 'Buda', cursive;
+font-family: 'Laila', serif;
+font-family: 'Glass Antiqua', cursive;
+font-family: 'Cormorant Infant', serif;
+font-family: 'Sansita', sans-serif;
+font-family: 'Scope One', serif;
+font-family: 'Offside', cursive;
+font-family: 'Autour One', cursive;
+font-family: 'Arya', sans-serif;
+font-family: 'Della Respira', serif;
+font-family: 'Sura', serif;
+font-family: 'Pavanam', sans-serif;
+font-family: 'Petrona', serif;
+font-family: 'Modern Antiqua', cursive;
+font-family: 'Oldenburg', cursive;
+font-family: 'Averia Gruesa Libre', cursive;
+font-family: 'Trochut', cursive;
+font-family: 'Asar', serif;
+font-family: 'Margarine', cursive;
+font-family: 'Sree Krushnadevaraya', serif;
+font-family: 'GFS Neohellenic', sans-serif;
+font-family: 'Chathura', sans-serif;
+font-family: 'Kavivanar', cursive;
+font-family: 'Tenali Ramakrishna', sans-serif;
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Domine', serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Neuton', serif;
+font-family: 'Concert One', cursive;
+font-family: 'Jura', sans-serif;
+font-family: 'Antic Slab', serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Arbutus Slab', serif;
+font-family: 'Lustria', serif;
+font-family: 'Coming Soon', cursive;
+
+*/
+
+.head-letters {
+	.head-letter {
+		font-family: $brand-font;
+		font-weight: bold;
+	}
+}
